@@ -16,3 +16,10 @@ Simple Udacity Exercise (Java Web Developer) demonstrating usage of JPA together
     ]
   }
   ```
+  * [http://localhost:8080/delivery/bill/1](http://localhost:8080/delivery/bill/1) responds to GET-Requests with a path variable equaling the id of the object to be returned as JSON. 
+  ```
+  {
+    "recipientName": "Terry",
+    "price": 6.0000
+  }
+ ```
