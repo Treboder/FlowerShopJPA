@@ -6,7 +6,6 @@ import com.udacity.jpademo.repositories.PlantRepository;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestEntityManager;
@@ -21,7 +20,6 @@ import java.util.List;
 @DataJpaTest
 @AutoConfigureTestEntityManager
 @AutoConfigureTestDatabase
-
 class JpademoApplicationTests {
 
 	@Test
