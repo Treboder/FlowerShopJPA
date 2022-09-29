@@ -22,4 +22,11 @@ Simple Udacity Exercise (Java Web Developer) demonstrating usage of JPA together
     "recipientName": "Terry",
     "price": 6.0000
   }
+  ```
+* [http://localhost:8080/plant/under-price/5](http://localhost:8080/plant/under-price/5) responds to GET-Request with a list of flowers with prices below 5
+ ```
+ [
+  {"name":"Petunia","price":3.5000},
+  {"name":"Tulip","price":2.5000}
+ ]
  ```
